@@ -11,35 +11,35 @@ export const products = [
     name: 'Phone XL',
     price: 799,
     description: 'A large phone with one of the best screens',
-    clase: 'higth',
+    clase: 'higth'
   },
   {
     id: 2,
     name: 'Phone Mini',
     price: 699,
     description: 'A great phone with one of the best cameras',
-    clase: 'higth',
+    clase: 'higth'
   },
   {
     id: 3,
     name: 'Phone Standard',
     price: 299,
     description: '',
-    clase: 'low',
+    clase: 'low'
   },
   {
     id: 4,
     name: 'product T-Shirt One',
     price: 300,
     description: 'Este es el cuarto producto',
-    clase: 'medium',
+    clase: 'medium'
   },
   {
     id: 5,
     name: 'product T-Shirt Two',
     price: 301,
     description: 'Este es el Quinto producto',
-    clase: 'medium',
+    clase: 'medium'
   },
 ];
 
