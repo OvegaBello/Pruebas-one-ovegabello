@@ -1,0 +1,12 @@
+.higth {
+  background-color: red;
+  color: black;
+}
+.medium {
+  background-color: rgb(238, 255, 0);
+  color: black;
+}
+.low {
+  background-color: rgb(0, 255, 64);
+  color: black;
+}

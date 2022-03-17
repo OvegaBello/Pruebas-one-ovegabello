@@ -3,6 +3,7 @@ export interface Product {
   name: string;
   price: number;
   description: string;
+  clase: string;
 }
 
 export const products = [
