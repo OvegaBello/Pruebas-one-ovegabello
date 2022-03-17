@@ -1,8 +1,8 @@
 <!--p>product-alerts works!</p-->
 <script>
   function claseOne(){
-    var clasePrice = {{product.price}};
-    var claseOne = "",
+    var clasePrice = 200;
+    var claseOne = "";
     if (clasePrice <= 299){
        claseOne = 'menor';
     }else if(clasePrice  >== 300 && clasePrice <==600){
@@ -13,8 +13,8 @@
     return claseOne;
   }
 </script>
-<p *ngIf="product && product.price < 700">
-  <button type="button" (click)="notify.emit()" class="claseOne()">
-    Notificacion < {{ product.price }}
+<p>
+  <button *ngIf="product" type="button" (click)="notify.emit()" [class]="product.price">
+    Notificacion Price < {{product.clase}}
   </button>
 </p>

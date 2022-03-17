@@ -2,6 +2,10 @@ h3>a{
   color: chocolate;
   font-size: 24px;
 }
+.pruebas {
+  border-style: solid;
+  border-color: red;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.

@@ -19,5 +19,6 @@ import { Product } from '../products';
 export class ProductAlertsComponent {
   @Input() product: Product | undefined;
   @Output() notify = new EventEmitter();
+  @Input() ngIf="1+1";
 }
 
